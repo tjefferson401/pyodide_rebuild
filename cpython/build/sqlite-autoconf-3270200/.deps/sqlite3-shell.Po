@@ -9,15 +9,15 @@ sqlite3-shell.o: shell.c \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
-  /src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/stddef.h \
-  /src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/__stddef_max_align_t.h \
-  /src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/stdint.h \
+  /src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/stddef.h \
+  /src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/stdint.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
   sqlite3.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
-  /src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/stdarg.h \
+  /src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/stdarg.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/compat/ctype.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/signal.h \
@@ -63,11 +63,11 @@ sqlite3-shell.o: shell.c \
 
 /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h:
 
-/src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/stddef.h:
+/src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/stddef.h:
 
-/src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/__stddef_max_align_t.h:
+/src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/__stddef_max_align_t.h:
 
-/src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/stdint.h:
+/src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/stdint.h:
 
 /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h:
 
@@ -79,7 +79,7 @@ sqlite3.h:
 
 /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h:
 
-/src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/stdarg.h:
+/src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/stdarg.h:
 
 /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/compat/ctype.h:
 

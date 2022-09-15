@@ -1,12 +1,12 @@
 import { Module } from "./module.js";
 import { loadPackage, loadedPackages } from "./load-pyodide.js";
-import { isPyProxy, PyBuffer } from "./pyproxy.gen.js";
+import { isPyProxy, PyBuffer } from "./pyproxy.gen_ts.js";
 export { loadPackage, loadedPackages, isPyProxy };
 
 /**
- * @typedef {import('./pyproxy.gen').Py2JsResult} Py2JsResult
- * @typedef {import('./pyproxy.gen').PyProxy} PyProxy
- * @typedef {import('./pyproxy.gen').TypedArray} TypedArray
+ * @typedef {import('./pyproxy.gen_ts').Py2JsResult} Py2JsResult
+ * @typedef {import('./pyproxy.gen_ts').PyProxy} PyProxy
+ * @typedef {import('./pyproxy.gen_ts').TypedArray} TypedArray
  * @typedef {import('emscripten')} Emscripten
  * @typedef {import('emscripten').Module.FS} FS
  */

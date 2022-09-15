@@ -1,17 +1,17 @@
 sqlite3-sqlite3.o: sqlite3.c \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
-  /src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/stdarg.h \
-  /src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/stdint.h \
+  /src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/stdarg.h \
+  /src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/stdint.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
-  /src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/inttypes.h \
+  /src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/inttypes.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
-  /src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/stddef.h \
-  /src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/__stddef_max_align_t.h \
+  /src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/stddef.h \
+  /src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/__stddef_max_align_t.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
   /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
@@ -49,9 +49,9 @@ sqlite3-sqlite3.o: sqlite3.c \
 
 /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h:
 
-/src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/stdarg.h:
+/src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/stdarg.h:
 
-/src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/stdint.h:
+/src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/stdint.h:
 
 /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h:
 
@@ -59,7 +59,7 @@ sqlite3-sqlite3.o: sqlite3.c \
 
 /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h:
 
-/src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/inttypes.h:
+/src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/inttypes.h:
 
 /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h:
 
@@ -69,9 +69,9 @@ sqlite3-sqlite3.o: sqlite3.c \
 
 /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h:
 
-/src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/stddef.h:
+/src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/stddef.h:
 
-/src/emsdk/emsdk/upstream/lib/clang/14.0.0/include/__stddef_max_align_t.h:
+/src/emsdk/emsdk/upstream/lib/clang/13.0.0/include/__stddef_max_align_t.h:
 
 /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
 

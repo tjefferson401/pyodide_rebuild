@@ -214,7 +214,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 'CFLAGS=-O2 -g0 -fPIC ' 'CPPFLAGS=-I/src/cpython/build/sqlite-autoconf-3270200 -I/src/cpython/build/bzip2-1.0.2 -I/src/cpython/build/zlib-1.2.12' '--without-pymalloc' '--disable-shared' '--disable-ipv6' '--enable-big-digits=30' '--enable-optimizations' '--host=wasm32-unknown-emscripten' '--build=x86_64-pc-linux-gnu' '--prefix=/src/cpython/installs/python-3.9.5' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=wasm32-unknown-emscripten' 'CC=/src/emsdk/emsdk/upstream/emscripten/emcc' 'PKG_CONFIG_PATH=' 'PKG_CONFIG_LIBDIR=/src/emsdk/emsdk/upstream/emscripten/cache/sysroot/local/lib/pkgconfig:/src/emsdk/emsdk/upstream/emscripten/cache/sysroot/lib/pkgconfig'
+CONFIG_ARGS=	 'CFLAGS=-O2 -g0 -fPIC ' 'CPPFLAGS=-I/src/cpython/build/sqlite-autoconf-3270200 -I/src/cpython/build/bzip2-1.0.2 -I/src/cpython/build/zlib-1.2.12' '--without-pymalloc' '--disable-shared' '--disable-ipv6' '--enable-big-digits=30' '--enable-optimizations' '--host=wasm32-unknown-emscripten' '--build=x86_64-pc-linux-gnu' '--prefix=/src/cpython/installs/python-3.9.5' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=wasm32-unknown-emscripten' 'CC=/src/emsdk/emsdk/upstream/emscripten/emcc' 'PKG_CONFIG_PATH=' 'PKG_CONFIG_LIBDIR=/src/emsdk/emsdk/upstream/emscripten/system/local/lib/pkgconfig:/src/emsdk/emsdk/upstream/emscripten/system/lib/pkgconfig'
 
 
 # Subdirectories with code

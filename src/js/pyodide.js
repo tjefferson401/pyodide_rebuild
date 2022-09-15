@@ -9,25 +9,25 @@ import {
   loadPackage,
 } from "./load-pyodide.js";
 import { makePublicAPI, registerJsModule } from "./api.js";
-import "./pyproxy.gen.js";
-import "./error_handling.gen.js";
+import "./pyproxy.gen_ts.js";
+import "./error_handling.gen_ts.js";
 
 /**
- * @typedef {import('./pyproxy.gen').PyProxy} PyProxy
- * @typedef {import('./pyproxy.gen').PyProxyWithLength} PyProxyWithLength
- * @typedef {import('./pyproxy.gen').PyProxyWithGet} PyProxyWithGet
- * @typedef {import('./pyproxy.gen').PyProxyWithSet} PyProxyWithSet
- * @typedef {import('./pyproxy.gen').PyProxyWithHas} PyProxyWithHas
- * @typedef {import('./pyproxy.gen').PyProxyIterable} PyProxyIterable
- * @typedef {import('./pyproxy.gen').PyProxyIterator} PyProxyIterator
- * @typedef {import('./pyproxy.gen').PyProxyAwaitable} PyProxyAwaitable
- * @typedef {import('./pyproxy.gen').PyProxyBuffer} PyProxyBuffer
- * @typedef {import('./pyproxy.gen').PyProxyCallable} PyProxyCallable
+ * @typedef {import('./pyproxy.gen_ts').PyProxy} PyProxy
+ * @typedef {import('./pyproxy.gen_ts').PyProxyWithLength} PyProxyWithLength
+ * @typedef {import('./pyproxy.gen_ts').PyProxyWithGet} PyProxyWithGet
+ * @typedef {import('./pyproxy.gen_ts').PyProxyWithSet} PyProxyWithSet
+ * @typedef {import('./pyproxy.gen_ts').PyProxyWithHas} PyProxyWithHas
+ * @typedef {import('./pyproxy.gen_ts').PyProxyIterable} PyProxyIterable
+ * @typedef {import('./pyproxy.gen_ts').PyProxyIterator} PyProxyIterator
+ * @typedef {import('./pyproxy.gen_ts').PyProxyAwaitable} PyProxyAwaitable
+ * @typedef {import('./pyproxy.gen_ts').PyProxyBuffer} PyProxyBuffer
+ * @typedef {import('./pyproxy.gen_ts').PyProxyCallable} PyProxyCallable
  *
- * @typedef {import('./pyproxy.gen').Py2JsResult} Py2JsResult
+ * @typedef {import('./pyproxy.gen_ts').Py2JsResult} Py2JsResult
  *
- * @typedef {import('./pyproxy.gen').TypedArray} TypedArray
- * @typedef {import('./pyproxy.gen').PyBuffer} PyBuffer
+ * @typedef {import('./pyproxy.gen_ts').TypedArray} TypedArray
+ * @typedef {import('./pyproxy.gen_ts').PyBuffer} PyBuffer
  */
 
 /**
